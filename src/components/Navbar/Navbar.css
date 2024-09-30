@@ -1,0 +1,33 @@
+nav {
+  background-color: transparent;
+  color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+}
+
+nav img {
+  width: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size: 1.2rem;
+  transition: .3s ease;
+  font-weight: 600;
+}
+
+nav ul li a:hover {
+  color: #A2E1FD;
+}

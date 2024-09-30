@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  color: #fafafa;
+}
+
+.copy a {
+  text-decoration: none;
+  color: #a3e4ff;
+}
+
+.social-links {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fafafa;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #a3e4ff;
+}

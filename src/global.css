@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  color: #a3e4ff;
+}
+
+/* HERO */
+
+#hero {
+  position: relative;
+  background-image: url(./assets/images/wallpaper.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero::before {
+  position: absolute;
+  content: "";
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.7;
+}
+
+#hero h1 {
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+/* ABOUT */
+
+#about {
+  margin: 5rem 3rem 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.about-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.about-text h2 {
+  color: #30434b;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.about-text a {
+  max-width: 30%;
+  padding: 1rem;
+  background-color: #7CB3D6;
+  border: 1px solid #7CB3D6;
+  color: #30434b;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: .5s ease;
+}
+
+.about-text a:hover {
+  background-color: #222;
+  color: #fafafa;
+  border: 1px solid #fafafa;
+}
+
+.about-image img{
+  width: 600px;
+  border-radius: 5px;
+}
+
+/* MAIN CAST */
+
+#main-cast {
+  margin: 5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cast-title {
+  text-align: center;
+  color: #30434b;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.cards-container {
+  margin: 0 auto;
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+}
